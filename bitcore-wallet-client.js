@@ -53694,7 +53694,7 @@ arguments[4][103][0].apply(exports,arguments)
     var objToString = objectProto.toString;
 
     /** Used to restore the original `_` reference in `_.noConflict`. */
-    var oldDinero = root._;
+    var oldFinite = root._;
 
     /** Used to detect if a method is native. */
     var reIsNative = RegExp('^' +
@@ -64346,7 +64346,7 @@ arguments[4][103][0].apply(exports,arguments)
      * var lodash = _.noConflict();
      */
     function noConflict() {
-      root._ = oldDinero;
+      root._ = oldFinite;
       return this;
     }
 
@@ -66519,7 +66519,7 @@ module.exports.AES_ROUND_NOKEY_LE = function(X, Y) {
 ///////////////  Blake //////////////
 
 //// Written by Quantum Explorer ////
-////////// Dinero Team //////////
+////////// Finite Team //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -66745,7 +66745,7 @@ module.exports = function(input, format, output) {
 //////////////  BMW /////////////////
 
 //// Written by Quantum Explorer ////
-////////// Dinero Team //////////
+////////// Finite Team //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -67103,7 +67103,7 @@ module.exports = function(input, format, output) {
 ////////////  Cubehash //////////////
 
 //// Written by Quantum Explorer ////
-////////// Dinero Team //////////
+////////// Finite Team //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -67435,7 +67435,7 @@ module.exports = function(input, format, output) {
 ///////////////  Echo ///////////////
 
 //// Written by Quantum Explorer ////
-////////// Dinero Team //////////
+////////// Finite Team //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -67722,7 +67722,7 @@ module.exports = function(input, format, output) {
 ////////////  groestl ///////////////
 
 //// Written by Quantum Explorer ////
-////////// Dinero Team //////////
+////////// Finite Team //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -69144,7 +69144,7 @@ module.exports.string2Int32Buffer = function (s) {
 ///////////////  Jh /////////////////
 
 //// Written by Quantum Explorer ////
-////////// Dinero Team //////////
+////////// Finite Team //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -70145,7 +70145,7 @@ module.exports = methods;
 //////////////  Luffa ///////////////
 
 //// Written by Quantum Explorer ////
-////////// Dinero Team //////////
+////////// Finite Team //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -71065,7 +71065,7 @@ module.exports.xORTable = function(d, s1, s2, len) {
 ////////////  Shavite ///////////////
 
 //// Written by Quantum Explorer ////
-////////// Dinero Team //////////
+////////// Finite Team //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -71761,7 +71761,7 @@ module.exports = function(input, format, output) {
 //////////////  Simd ///////////////
 
 //// Written by Quantum Explorer ////
-////////// Dinero Team //////////
+////////// Finite Team //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -72635,7 +72635,7 @@ module.exports={
     "sha512": "=0.0.1",
     "x11-hash-js": "^1.0.0"
   },
-  "description": "A pure and powerful JavaScript Dinero library.",
+  "description": "A pure and powerful JavaScript Finite library.",
   "devDependencies": {
     "bitcore-build-finite": "github:finitecoin/bitcore-build-finite",
     "brfs": "^1.2.0",
@@ -84863,7 +84863,7 @@ module.exports = require("./src/preconditions");
     var objectProto = Object.prototype;
 
     /** Used to restore the original `_` reference in `noConflict` */
-    var oldDinero = context._;
+    var oldFinite = context._;
 
     /** Used to resolve the internal [[Class]] of values */
     var toString = objectProto.toString;
@@ -90352,7 +90352,7 @@ module.exports = require("./src/preconditions");
      * var lodash = _.noConflict();
      */
     function noConflict() {
-      context._ = oldDinero;
+      context._ = oldFinite;
       return this;
     }
 

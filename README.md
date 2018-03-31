@@ -1,4 +1,4 @@
-# Bitcore-Dinero Wallet Client
+# Bitcore-Finite Wallet Client
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-wallet-client-finite.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-wallet-client-finite)
 [![Build Status](https://img.shields.io/travis/finitecoin/bitcore-wallet-client-finite.svg?branch=master&style=flat-square)](https://travis-ci.org/finitecoin/bitcore-wallet-client-finite)
