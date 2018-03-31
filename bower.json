@@ -1,0 +1,26 @@
+{
+  "name": "bitcore-wallet-client-finite",
+  "main": "index.js",
+  "version": "2.1.1",
+  "homepage": "https://github.com/finitecoin/bitcore-wallet-client-finite",
+  "authors": ["BitPay Inc"],
+  "description": "Client for bitcore-wallet-service-finite",
+  "keywords": [
+    "finite",
+    "copay-finite",
+    "multisig",
+    "wallet",
+    "client",
+    "bitcore-finite"
+  ],
+  "ignore": [
+    "**/.*",
+    "lib",
+    "node_modules",
+    "Gruntfile.js",
+    "Makefile",
+    "index.js",
+    "test",
+    "Makefile"
+  ]
+}
